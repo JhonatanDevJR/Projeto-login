@@ -48,13 +48,16 @@ div#formulario h1{
 div#formulario p{
     font-size: .8em;
 }
+label,span{
+    color: white;
+}
 form div.campo{
     background-color: rgb(105, 40, 165);
-    height: 40px;
+    height: 50px;
     text-indent: .5em;
     border-radius: 5px;
     margin-top: 5px;
-    text-align: center;
+    text-align:  center;
 }
 form input[type= submit]{
     display: block;
