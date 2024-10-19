@@ -48,16 +48,38 @@ div#formulario h1{
 div#formulario p{
     font-size: .8em;
 }
+
+div.campo label{
+    display: none;
+}
 label,span{
     color: white;
 }
 form div.campo{
     background-color: rgb(105, 40, 165);
-    height: 50px;
-    text-indent: .5em;
     border-radius: 5px;
     margin-top: 5px;
     text-align:  center;
+}
+div.campo span{
+    background-color: rgb(105, 40, 165);
+    width: 40px;
+    
+    border-radius: 3px;
+    font-size: 2em;
+}
+div.campo input{
+    background-color: rgb(44, 202, 202);
+    height: 55px;
+    font-size: 1em;
+    width: calc(100% - 46px);
+    padding-bottom: -10px;
+    border: 2px solid rgb(105, 40, 165);
+    padding-bottom: 4px;
+    border-radius: 5px;
+}
+div.campo input:focus-within{
+    background-color: white;
 }
 form input[type= submit]{
     display: block;
