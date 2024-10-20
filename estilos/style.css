@@ -84,7 +84,7 @@ div.campo input:focus-within{
 form input[type= submit]{
     display: block;
     font-size: 1em;
-    width: 100%;
+    width: 45%;
     height: 40px;
     background-color: rgb(18, 133, 133);
     color: white;
@@ -92,6 +92,7 @@ form input[type= submit]{
     border-radius: 5px;
     cursor: pointer;
     margin-top: 20px;
+    display: inline-block;
 }
 form input[type=submit]:hover{
     background-color: rgb(15, 165, 165);
@@ -116,4 +117,7 @@ form a.botao >span{
 }
 form a.botao:hover{
     background-color: rgb(74, 141, 172);
+}
+select{
+    margin-top: 10px;
 }
